@@ -5,7 +5,7 @@ from Heap import *
 import os, random
 
 """Loads toy data from file"""
-data=open("data-generation/sample100.csv",encoding="utf8")
+data=open("../data-generation/sample100.csv",encoding="utf8")
 toLoad=[line.rstrip("\n") for line in data][1:]
 
 """Inserts data into database"""
